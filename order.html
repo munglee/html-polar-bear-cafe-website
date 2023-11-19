@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Polar Bear Cafe - Best Iced Tea in Canada</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link rel="icon" type="image/x-icon" href="images/logo.png" />
+	</head>
+	<body>
+		<img id="logo" src="images/logo.png" />
+	  <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="promotions.html">Promotions</a></li>
+				<li><a href="order.html">Order Now</a></li>
+        <li><a href="menu.html">Menu</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+      </ul>
+			<hr class="gradient" />
+    </nav>
+	
+		<main>
+			<div class="container">
+				<form method="post" id="orderform" onSubmit="alert('Thank you for your order.');">
+					<label for="firstname">Your name</label>
+					<input type="text" id="firstname" name="firstname" placeholder="Enter your first name">
+					
+					<label for="orderemail">Your Email</label>
+				<input type="text" id="orderemail" name="orderemail" placeholder="Enter your email">
+
+					<legend>Drinks</legend>
+			<input type="radio" id="classicbobamilktea" name="fav_drink" value="classicbobamilktea">
+			<label for="classicbobamilktea">Classic Boba Milk Tea</label><br>
+			<input type="radio" id="brownsugarpearllatte" name="fav_drink" value="brownsugarpearllatte">
+			<label for="brownsugarpearllatte">Brown Sugar Pearl Latte</label><br>
+			<input type="radio" id="mangosmoothie" name="fav_drink" value="mangosmoothie">
+			<label for="mangosmoothie">Mango Smoothie</label><br>
+			<input type="radio" id="redbeanmatchamilktea" name="fav_drink" value="redbeanmatchamilktea">
+			<label for="redbeanmatchamilktea">Red Bean Matcha Milk Tea</label><br>
+			<input type="radio" id="grapefruitgreentea" name="fav_drink" value="grapefruitgreentea">
+			<label for="grapefruitgreentea">Grapefruit Green Tea</label><br>
+			<input type="radio" id="gingerbreadpearlmilktea" name="fav_drink" value="gingerbreadpearlmilktea">
+			<label for="gingerbreadpearlmilktea">Gingerbread Pearl Milk Tea</label><br>
+			
+			<input type="radio" id="strawberrymilktea" name="fav_drink" value="strawberrymilktea">
+			<label for="strawberrymilktea">Strawberry Milk Tea</label><br>
+			<input type="radio" id="lemonsmoothie" name="fav_drink" value="lemonsmoothie">
+			<label for="lemonsmoothie">Lemon Smoothie</label><br>
+			<input type="radio" id="chocolatemilktea" name="fav_drink" value="chocolatemilktea">
+			<label for="chocolatemilktea">Chocolate Milk Tea</label>
+			
+			<legend>Taste</legend>
+			<input type="radio" id="moresugar" name="sugar" value="mangosmoothie">
+			<label for="moresugar">More Sugar</label>
+			<input type="radio" id="lesssugar" name="sugar" value="classicbobamilktea">
+			<label for="lesssugar">Less Sugar</label>
+			<input type="radio" id="nosugar" name="sugar" value="brownsugarpearllatte">
+			<label for="nosugar">No Sugar</label><br>
+			
+			<legend>Temperature</legend>
+			<input type="radio" id="hot" name="temperature" value="mangosmoothie">
+			<label for="hot">Hot</label>
+			<input type="radio" id="cold" name="temperature" value="classicbobamilktea">
+			<label for="cold">Cold</label><br>
+
+					<input type="submit" value="Order Now">
+				</form>
+			</div>	
+		
+		</main>
+	
+	<footer>
+			<hr class="gradient" />
+      <p>
+				© Copyright 2023 by <a href="index.html">Polar Bear Cafe</a>. All rights reversed.
+			</p>
+  </footer>
+	</body>
+</html>
